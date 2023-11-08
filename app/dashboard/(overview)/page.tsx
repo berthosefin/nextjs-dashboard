@@ -9,6 +9,12 @@ import {
 import RevenueChart from "@/app/ui/dashboard/revenue-chart";
 import CardWrapper from "@/app/ui/dashboard/cards";
 
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Overview",
+};
+
 export default async function Page() {
   return (
     <main>
